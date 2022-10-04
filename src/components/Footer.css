@@ -1,7 +1,7 @@
 #footer {
-  width: 100vw;
-  background: black;
+  background: var(--footer);
   color: white;
   font-size: 0.8em;
   text-align: center;
+  margin: -20px;
 }

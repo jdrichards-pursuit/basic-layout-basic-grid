@@ -1,13 +1,14 @@
-*,
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+:root {
+  --main: gray;
+  --sidebar: yellow;
+  --footer: black;
+  --header: black;
 }
 
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  height: 80vh;
 }
 
 h1,
@@ -18,7 +19,12 @@ h3 {
 a {
   text-decoration: none;
 }
+a:hover {
+  color: black;
+  font-weight: bold;
+}
 
 li {
   list-style: none;
+  line-height: 2em;
 }

@@ -1,6 +1,6 @@
 #sidebar {
   width: 30vw;
-  background: yellow;
+  background: var(--sidebar);
   color: green;
   padding: 40px;
   font-size: 1.2em;
